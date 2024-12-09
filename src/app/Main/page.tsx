@@ -8,7 +8,7 @@ import kursi_3 from "../../../public/kursi_3.png";
 import kursi_4 from "../../../public/kursi_4.png";
 export default function MainHome(){
     return(
-<main className="w-full">
+<main className="w-full bg-white">
     <div className="bg-[#F2F0FF] flex flex-wrap">
         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 2xl:w-1/4">
             <Image src={lamb} alt="lamb" />
@@ -16,7 +16,7 @@ export default function MainHome(){
         <div className="flex flex-col justify-center w-full sm:w-1/2 md:w-1/2 lg:1/3 xl:w-1/3 2xl:w-1/3">
             <div className="h-[300px]">
                 <p className="text-[#FB2E86] font-[Lato] font-bold text-[16px] leading-7 pb-3">Best Furniture For Your Castle....</p>
-                <h1 className="font-[Josefin Sans] text-[53px] font-bold leading-[81.98px] sm:tracking-[0.5%] md:tracking-[1.0%] lg:tracking-[1.5%] xl:tracking-[1.5%] 2xl:tracking-[1.5%] pb-3">New Furniture Collection Trends in 2020</h1>
+                <h1 className="font-[Josefin Sans] text-[53px] font-bold leading-[81.98px] sm:tracking-[0.5%] md:tracking-[1.0%] lg:tracking-[1.5%] xl:tracking-[1.5%] 2xl:tracking-[1.5%] pb-3 text-black">New Furniture Collection Trends in 2020</h1>
                 <p className="font-[Lato] font-bold text-[16px] leading-7 text-[#8A8FB9] pb-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
                 <button type="button" className="bg-[#FB2E86] text-white font-[Josefin Sans] rounded-sm h-[50px] w-[163px]">Show Now</button>
             </div>

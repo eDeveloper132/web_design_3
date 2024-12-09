@@ -8,7 +8,7 @@ export default function Header() {
         crossOrigin="anonymous"
         strategy="afterInteractive"
     />
-    <nav className="w-full">
+    <nav className="w-full bg-white text-black">
         <div className="flex bg-[#7E33E0] font-[Josefin Sans] font-bold h-11 justify-evenly py-2 flex-wrap px-4">
             <div className="flex gap-4 justify-between w-full md:w-1/2 lg:w-1/4">
                 <div className="flex gap-3">
