@@ -309,7 +309,7 @@ export default function MainHome(){
         </button>
     </div>
     <div className="w-full md:w-2/3 lg:w-1/3 flex justify-center">
-        <Image src={discount_sofa} width={699} height={500} alt="kursi" className="max-w-full h-auto" />
+        <Image src={discount_sofa} width={699} height={500} alt="kursa" className="max-w-full h-auto" />
     </div>
 </div>
 
