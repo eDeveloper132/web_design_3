@@ -3,15 +3,15 @@ import Image, { StaticImageData } from "next/image";
 export default function Shop_List_Card({
   title,
   image,
-  paragraph,
-  discountedPrice,
-  originalPrice,
+  // paragraph,
+  // discountedPrice,
+  // originalPrice,
 }: {
   title: string;
   image: StaticImageData;
-  paragraph: string;
-  discountedPrice: number;
-  originalPrice: number;
+  // paragraph: string;
+  // discountedPrice: number;
+  // originalPrice: number;
 }) {
   return (
     <>
