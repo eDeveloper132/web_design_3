@@ -1,8 +1,8 @@
 import matrix from "../../../public/matrix.png";
 import menua from "../../../public/menua.png";
 import Image from "next/image";
-import Shop_List_Card from "../components/Shop_List_Card";
-import shop_1 from "../../../public/shop_1.jpeg";
+// import Shop_List_Card from "../components/Shop_List_Card";
+// import shop_1 from "../../../public/shop_1.jpeg";
 export default function Shop_List_Main() {
     return(
         <>
@@ -66,8 +66,8 @@ export default function Shop_List_Main() {
 
             <div className="flex justify-center">
                 <div className="grid grid-cols-1">
-                    <Shop_List_Card title="Headphone" image={shop_1} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={50} originalPrice={100} />
-                    <Shop_List_Card title="Headphone" image={shop_1} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={50} originalPrice={100} />
+                    {/* <Shop_List_Card title="Headphone" image={shop_1} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={50} originalPrice={100} /> */}
+                    {/* <Shop_List_Card title="Headphone" image={shop_1} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={50} originalPrice={100} /> */}
                 </div>
             </div>
         </>
