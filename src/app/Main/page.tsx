@@ -60,7 +60,7 @@ export default function MainHome(){
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.
     </p>
     <button type="button" className="bg-[#FB2E86] text-white font-[Josefin Sans] rounded-sm h-[45px] md:h-[50px] w-[150px] md:w-[163px]">
-      Show Now
+      Shop Now
     </button>
   </div>
 </div>

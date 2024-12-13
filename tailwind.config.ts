@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        xs250: '200px', // Custom small breakpoint starting at 250px
+      },
     },
   },
   plugins: [],
