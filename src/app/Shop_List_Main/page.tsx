@@ -72,14 +72,14 @@ export default function Shop_List_Main() {
             </div>
 
             <div className="flex justify-center">
-                <div className="grid grid-cols-1">
-                    <Shop_List_Card title="Accumsan tincidunt" image={shop_1} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
-                    <Shop_List_Card title="In nulla" image={shop_2} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
-                    <Shop_List_Card title="Vel sem" image={shop_3} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
-                    <Shop_List_Card title="Porttitor cum" image={shop_4} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
-                    <Shop_List_Card title="Nunc in" image={shop_5} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
-                    <Shop_List_Card title="Vitae facilisis" image={shop_6} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
-                    <Shop_List_Card title="Curabitur lectus" image={shop_7} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
+                <div>
+                    <Shop_List_Card width="w-[1100px]" title="Accumsan tincidunt" image={shop_1} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="w-[1100px]" title="In nulla" image={shop_2} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="w-[1100px]" title="Vel sem" image={shop_3} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="w-[1100px]" title="Porttitor cum" image={shop_4} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="w-[1100px]" title="Nunc in" image={shop_5} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="w-[1100px]" title="Vitae facilisis" image={shop_6} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="w-[1100px]" title="Curabitur lectus" image={shop_7} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo." discountedPrice={26.00} originalPrice={52.00} />
                 </div>
             </div>
 

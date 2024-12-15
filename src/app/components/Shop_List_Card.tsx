@@ -6,17 +6,21 @@ export default function Shop_List_Card({
   paragraph,
   discountedPrice,
   originalPrice,
+  width
 }: {
   title: string;
   image: StaticImageData;
   paragraph: string;
   discountedPrice: number;
   originalPrice: number;
+  width: string
 }) {
   return (
     <>
       {/* For large devices */}
-      <div className="hidden lg:flex xl:flex 2xl:flex shadow-lg shadow-[#F6F6FD80]/50 w-[1100px] gap-6 px-4 my-8 py-4">
+      <div className="hidden lg:block xl:block 2xl:block">
+      <div className={width}>
+      <div className="flex shadow-lg shadow-[#F6F6FD80]/50 gap-6 px-4 p-4">
         <span>
           <Image src={image} width={313} alt={title} className="h-[217px]"></Image>
         </span>
@@ -63,6 +67,8 @@ export default function Shop_List_Card({
             </li>
           </ul>
         </div>
+      </div>
+      </div>
       </div>
 
       {/* For small devices */}
