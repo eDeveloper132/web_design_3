@@ -2,6 +2,7 @@ import matrix from "../../../public/matrix.png";
 import menua from "../../../public/menua.png";
 import Image from "next/image";
 import Shop_List_Card from "../components/Shop_List_Card";
+import sponsor from "../../../public/sponsor.png";
 import shop_8 from "../../../public/shop_8.jpeg";
 import shop_9 from "../../../public/shop_9.jpeg";
 import shop_11 from "../../../public/shop_11.jpeg";
@@ -490,14 +491,25 @@ export default function Shop_Left_Main() {
                     </div>
                 </div>
                 <div className="flex flex-wrap gap-4 justify-center w-full lg:w-[900px]">
-                    <Shop_List_Card width="lg:w-[900px]" title="Apple Watch Series 7" image={shop_8} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={500} originalPrice={1000} />
-                    <Shop_List_Card width="lg:w-[900px]" title="Apple Watch Series 7" image={shop_9} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={500} originalPrice={1000} />
-                    <Shop_List_Card width="lg:w-[900px]" title="Apple Watch Series 7" image={shop_11} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={500} originalPrice={1000} />
-                    <Shop_List_Card width="lg:w-[900px]" title="Apple Watch Series 7" image={shop_12} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={500} originalPrice={1000} />
-                    <Shop_List_Card width="lg:w-[900px]" title="Apple Watch Series 7" image={shop_13} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={500} originalPrice={1000} />
-                    <Shop_List_Card width="lg:w-[900px]" title="Apple Watch Series 7" image={shop_14} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={500} originalPrice={1000} />
-                    <Shop_List_Card width="lg:w-[900px]" title="Apple Watch Series 7" image={shop_8} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={500} originalPrice={1000} />
+                    <Shop_List_Card width="lg:w-[900px]" title="Dictum morbi" image={shop_8} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="lg:w-[900px]" title="Sodales sit" image={shop_9} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="lg:w-[900px]" title="Nibh varius" image={shop_11} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="lg:w-[900px]" title="Mauris quis" image={shop_12} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="lg:w-[900px]" title="Morbi sagittis" image={shop_13} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="lg:w-[900px]" title="Ultricies venenatis" image={shop_14} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={26.00} originalPrice={52.00} />
+                    <Shop_List_Card width="lg:w-[900px]" title="Scelerisque dignissim" image={shop_8} paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." discountedPrice={26.00} originalPrice={52.00} />
                 </div>
+            </div>
+
+            <div className="flex justify-center my-20">
+                <Image 
+                    src={sponsor} 
+                    width={1000} 
+                    height={100} 
+                    alt="sponsor" 
+                    className="max-w-full h-auto" 
+                    style={{ objectFit: 'contain' }}
+                />
             </div>
         </>
     )

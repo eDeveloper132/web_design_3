@@ -93,9 +93,9 @@ export default function Footer(){
                 </div>
                 <div className="flex flex-col justify-center">
                     <div className="w-20 h-5 flex gap-2">
-                        <i className="fa-brands fa-facebook"></i>
-                        <i className="fa-brands fa-instagram"></i>
-                        <i className="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-facebook cursor-pointer"></i>
+                        <i className="fa-brands fa-instagram cursor-pointer"></i>
+                        <i className="fa-brands fa-twitter cursor-pointer"></i>
                     </div>
                 </div>
             </div>

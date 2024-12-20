@@ -55,6 +55,12 @@ export default function Header() {
                 <li className="px-4 py-2 hover:bg-[#FB2E86] hover:text-white cursor-pointer transition-colors duration-300">
                     <Link href={"/Shop_left_page"}>Shop Left</Link>
                 </li>
+                <li className="px-4 py-2 hover:bg-[#FB2E86] hover:text-white cursor-pointer transition-colors duration-300">
+                    <Link href={"/Product_details_page"}>Product Details</Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-[#FB2E86] hover:text-white cursor-pointer transition-colors duration-300">
+                    <Link href={"/Shopping_curt_page"}>Shopping Curt</Link>
+                </li>
             </ul>
         </li>
         {/* <li className="px-4 py-2 hover:bg-[#FB2E86] hover:text-white cursor-pointer transition-colors duration-300">
