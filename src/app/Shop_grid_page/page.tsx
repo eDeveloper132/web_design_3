@@ -5,9 +5,11 @@ import Shop_Main from "../Shop_Main/page";
 export default function shop_grid(){
     return(
         <>
-            <Header />
-            <Shop_Main />
-            <Footer />
+            <div className="bg-white">
+                <Header />
+                <Shop_Main />
+                <Footer />
+            </div>
         </>
     )
 }

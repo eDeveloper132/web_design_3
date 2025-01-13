@@ -5,9 +5,11 @@ import Shopping_Curt_Main from "../Shopping_Curt_Main/page";
 export default function shop_grid(){
     return(
         <>
-            <Header />
-            <Shopping_Curt_Main />
-            <Footer />
+            <div className="bg-white">
+                <Header />
+                <Shopping_Curt_Main />
+                <Footer />
+            </div>
         </>
     )
 }

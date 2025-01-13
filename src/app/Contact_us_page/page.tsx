@@ -5,9 +5,11 @@ import Contact_Main from "../Contact_Main/page";
 export default function shop_grid(){
     return(
         <>
-            <Header />
-            <Contact_Main />
-            <Footer />
+            <div className="bg-white">
+                <Header />
+                <Contact_Main />
+                <Footer />
+            </div>
         </>
     )
 }

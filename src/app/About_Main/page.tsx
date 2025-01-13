@@ -28,6 +28,7 @@ export default function About_Main() {
                     </div>
                 </div>
             </div>
+            <div className="bg-white">
             <div className="w-screen bg-white">
                 <div className="flex justify-center py-36 px-4">
                     <div className="flex flex-col lg:flex-row gap-12 lg:gap-12 xl:gap-12 2xl:gap-12 items-center lg:items-start">
@@ -69,7 +70,7 @@ export default function About_Main() {
 
                 <div className="h-auto bg-[#FBFBFF] mt-20 mb-72 flex justify-center px-4 sm:px-8 py-20">
                     <div className="flex flex-col justify-center items-center text-center sm:text-left">
-                        <p className="font-[Josefin Sans] text-[32px] sm:text-[42px] leading-[30px] sm:leading-[25.6px] font-semibold">Our Client Say!</p>
+                        <p className="font-[Josefin Sans] text-[32px] sm:text-[42px] leading-[30px] sm:leading-[25.6px] font-semibold text-black">Our Client Say!</p>
                         <div className="mt-16 flex w-full max-w-[380px] sm:w-[190px] h-[64px] mx-auto sm:mx-12 gap-2 justify-center">
                             <Image src={about_us_1} className="w-[55px] h-[55px]" alt="image" />
                             <Image src={about_us_2} className="w-[55px] h-[55px]" alt="image" />
@@ -90,7 +91,7 @@ export default function About_Main() {
 
 
             </div>
-
+</div>
 
         </>
     )

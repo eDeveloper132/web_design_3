@@ -5,9 +5,11 @@ import MainHome from "./Main/page";
 export default function Home() {
   return (
     <>
-      <Header />
-      <MainHome />
-      <Footer />
+      <div className="bg-white">
+        <Header />
+        <MainHome />
+        <Footer />
+      </div>
     </>
   );
 }
