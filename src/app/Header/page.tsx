@@ -29,7 +29,9 @@ export default function Header() {
                     </Link>
                     <li className="flex gap-2 my-auto cursor-pointer">Wishlist <i className="fa-regular fa-heart my-auto cursor-pointer"></i></li>
                 </ul>
+                <Link href={'/Shopping_curt_page'}>
                 <i className="fa-solid fa-cart-shopping my-auto cursor-pointer" aria-hidden="true" style={{ color: 'white', fill: 'transparent' }}></i>
+                </Link>
             </div>
         </div>
 
@@ -61,7 +63,7 @@ export default function Header() {
                     <Link href={"/Product_details_page"}>Product Details</Link>
                 </li>
                 <li className="px-4 py-2 hover:bg-[#FB2E86] hover:text-white cursor-pointer transition-colors duration-300">
-                    <Link href={"/Shopping_curt_page"}>Shopping Curt</Link>
+                    <Link href={"/About_us_page"}>About Us</Link>
                 </li>
             </ul>
         </li>
@@ -75,11 +77,10 @@ export default function Header() {
 </li>
 
 
-                        <li className="my-auto h-[20px] cursor-pointer">Pages</li>
                         <li className="my-auto h-[20px] cursor-pointer">Products</li>
                         <li className="my-auto h-[20px] cursor-pointer"><Link href={'/Blog_web_page'}>Blog</Link></li>
                         <li className="my-auto h-[20px] cursor-pointer">Shop</li>
-                        <li className="my-auto h-[20px] cursor-pointer">Contact</li>
+                        <li className="my-auto h-[20px] cursor-pointer"><Link href={'/Contact_us_page'}>Contact Us</Link></li>
                     </ul>
                 </div>
                 <div className="flex mt-2 md:mt-0 cursor-pointer">
