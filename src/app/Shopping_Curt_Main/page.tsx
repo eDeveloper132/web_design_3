@@ -26,7 +26,7 @@ export default function Shopping_Curt_Main() {
                 </div>
             </div>
 
-            <div className="hidden lg:flex xl:flex 2xl:flex justify-center my-24 gap-16">
+            <div className="hidden lg:flex xl:flex 2xl:flex justify-center my-24 gap-16 bg-white">
                 <div className="flex flex-col gap-6">
                     <div className="flex gap-2">
                         <div className="flex flex-col gap-5">
@@ -293,7 +293,7 @@ export default function Shopping_Curt_Main() {
                 </div>
             </div>
 
-            <div className="flex lg:hidden xl:hidden 2xl:hidden flex-col gap-8 p-4">
+            <div className="flex lg:hidden xl:hidden 2xl:hidden flex-col gap-8 p-4 bg-white">
   <div className="flex flex-col gap-6">
   <span className="flex justify-center my-2">
         <h1 className="font-[Josefin Sans] text-[20px] text-[#1D3178] font-semibold">Product</h1>
@@ -351,7 +351,7 @@ export default function Shopping_Curt_Main() {
 </div>
 
 
-            <div className="flex lg:hidden xl:hidden 2xl:hidden justify-center mt-5">
+            <div className="flex lg:hidden xl:hidden 2xl:hidden justify-center mt-5 bg-white">
                 <div className="flex flex-col w-[372px]">
                         <h1 className="font-[Josefin Sans] text-[20px] leading-[23.44px] text-[#1D3178] font-semibold flex justify-center mb-8">Cart Totals</h1>
                         <div className="flex flex-col gap-[58px] w-[372px]">

@@ -22,7 +22,7 @@ export default function Contact_Main() {
             </div>
 
             <div className="bg-white w-full">
-                <div className="flex justify-center w-full my-16 sm:my-24 md:my-32">
+                <div className="flex justify-center w-full py-16 sm:py-24 md:py-32">
                     <div className="flex flex-col md:flex-row gap-12 sm:gap-16 md:gap-24">
                     {/* Information About Us Section */}
                     <div className="w-full md:w-[550px] flex flex-col gap-6 sm:gap-8 md:gap-12">

@@ -36,7 +36,7 @@ export default function Shop_Main() {
     </div>
 </div>
 
-        <div className="flex justify-center my-16 md:my-28">
+        <div className="flex justify-center my-16 md:my-28 bg-white">
                 <div className="flex flex-col md:flex-row gap-10 md:gap-20 px-4 md:px-0">
                     {/* Info Section */}
                     <div className="flex flex-col">

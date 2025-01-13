@@ -22,13 +22,13 @@ export default function Login_Main() {
                 </div>
             </div>
             <div className="w-screen bg-white">
-    <div className="flex justify-center my-16 md:my-20">
+    <div className="flex justify-center py-16 md:py-20">
         <div className="w-full max-w-[545px] h-auto md:h-[475px] border-[1px] border-[#F8F8FB] shadow-sm shadow-[#C2C5E1] flex justify-center py-2 px-4 sm:px-6">
             <div className="flex flex-col justify-center w-full">
                 <div className="w-full max-w-[433px] h-auto md:h-[374px] flex flex-col gap-6 md:gap-10 mx-auto">
                     <span className="flex flex-col gap-2">
                         <span className="flex justify-center">
-                            <p className="font-[Josefin Sans] text-2xl md:text-[32px] leading-[30px] md:leading-[37.5px] font-semibold">
+                            <p className="font-[Josefin Sans] text-2xl md:text-[32px] leading-[30px] md:leading-[37.5px] font-semibold text-black">
                                 Login
                             </p>
                         </span>
@@ -72,7 +72,7 @@ export default function Login_Main() {
     </div>
 </div>
 
-            <div className="flex justify-center my-20">
+            <div className="flex justify-center mt-20">
                 <Image 
                     src={sponsor} 
                     width={1000} 

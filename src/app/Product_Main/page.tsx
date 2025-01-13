@@ -30,7 +30,7 @@ export default function Product_Main(){
                     </div>
                 </div>
             </div>
-            <div className="hidden lg:flex xl:flex 2xl:flex justify-center">
+            <div className="hidden lg:flex xl:flex 2xl:flex justify-center bg-white">
                 <div className="w-[1170px] h-[510px] shadow-lg shadow-[#F6F4FD] my-28 p-2">
                     <div className="flex space-x-10">
                     <div className="flex flex-col gap-2">
@@ -93,7 +93,7 @@ export default function Product_Main(){
                     </div>
                 </div>
             </div>
-            <div className="flex lg:hidden xl:hidden 2xl:hidden justify-center">
+            <div className="flex lg:hidden xl:hidden 2xl:hidden justify-center bg-white">
             <div className="flex justify-center">
                 <div className=" h-[510px] shadow-lg shadow-[#F6F4FD] my-28 flex gap-3 p-2">
                     <div className="flex flex-col gap-2">

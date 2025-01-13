@@ -40,7 +40,7 @@ export default function Blog_Main() {
                 </div>
             </div>
             <div className="w-full bg-white">
-  <div className="flex flex-col lg:flex-row justify-center gap-8 lg:gap-16 my-16 lg:my-40 px-4 md:px-8">
+  <div className="flex flex-col lg:flex-row justify-center gap-8 lg:gap-16 py-16 lg:my-40 px-4 md:px-8">
     {/* Blog Reader Section */}
     <div className="flex flex-col gap-10 w-full max-w-[870px]">
       <Blog_Reader
@@ -195,7 +195,7 @@ export default function Blog_Main() {
       </div>
     </div>
   </div>
-  <div className="flex justify-center my-5">
+  <div className="flex justify-center mt-5">
                 <Image 
                     src={sponsor} 
                     width={1000} 

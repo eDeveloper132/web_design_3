@@ -21,6 +21,7 @@ export default function Completed_Main() {
                     </div>
                 </div>
             </div>
+            <div className="bg-white">
             <div className="w-screen bg-white">
     <div className="flex justify-center my-16 md:my-32">
         <div className="w-full max-w-[700px] h-auto md:h-64 relative px-4 sm:px-6">
@@ -69,6 +70,7 @@ export default function Completed_Main() {
                     className="max-w-full h-auto" 
                     style={{ objectFit: 'contain' }}
                 />
+            </div>
             </div>
         </>
     )

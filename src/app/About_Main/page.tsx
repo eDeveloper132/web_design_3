@@ -29,7 +29,7 @@ export default function About_Main() {
                 </div>
             </div>
             <div className="w-screen bg-white">
-                <div className="flex justify-center my-36 px-4">
+                <div className="flex justify-center py-36 px-4">
                     <div className="flex flex-col lg:flex-row gap-12 lg:gap-12 xl:gap-12 2xl:gap-12 items-center lg:items-start">
                     <div className="relative w-full lg:w-[552px] h-[410px] bg-[#2B3CAB]">
                         <Image
